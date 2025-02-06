@@ -1,9 +1,10 @@
 import './App.css';
+import Navigation from './componentes/navigation/Navigation.jsx';
 
 function App() {
   return (
     <div className="App">
-      <div>It's working</div>
+      <Navigation/>
     </div>
   );
 }
