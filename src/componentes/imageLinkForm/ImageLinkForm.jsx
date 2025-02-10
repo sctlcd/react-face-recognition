@@ -1,5 +1,5 @@
 import React from 'react';
-import './imageLinkForm.css';
+import './ImageLinkForm.css';
 
 export default function ImageLinkForm() {
   return (

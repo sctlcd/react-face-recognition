@@ -1,6 +1,6 @@
 import React from 'react';
 import Tilt from 'react-parallax-tilt';
-import './logo.css';
+import './Logo.css';
 import Face from './face-recognition.png';
 
 export default function Logo() {
