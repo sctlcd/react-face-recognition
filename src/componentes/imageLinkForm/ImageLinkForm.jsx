@@ -11,7 +11,7 @@ export default function ImageLinkForm() {
       </div>
       <div className='center'>
         <div className='form pa4 br4 shadow-3'>
-          <input className='f4 pa2 w-80 bg-washed-blue b--washed-blue br3' type='text' />
+          <input className='input f4 pa2 w-80 bg-washed-blue b--washed-blue br3' type='text' />
           <button className='w-40 grow f4 link ph3 pv2 mt3 dib white bg-purple b--purple br3'>Detect</button>
         </div>
       </div>
