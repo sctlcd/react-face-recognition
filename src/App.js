@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import './App.css';
 import Navigation from './componentes/Navigation/Navigation.jsx';
 import Logo from './componentes/Logo/Logo.jsx';
@@ -5,6 +6,8 @@ import ImageLinkForm from './componentes/ImageLinkForm/ImageLinkForm.jsx';
 import Rank from './componentes/Rank/Rank.jsx';
 import ParticlesBg from 'particles-bg';
 import MouseParticles from 'react-mouse-particles';
+import PowerModeInput from "power-mode-input";
+
 
 function App() {
 
@@ -34,10 +37,34 @@ function App() {
   //   }
   // };
 
+  
+
+  useEffect(() => {
+    initPowerModeInput();
+  }, []);
+
+  // setTimeout(() => {
+  //   initPowerModeInput();
+  // }, 180);
+
+  // doc: https://github.com/lindelof/power-mode-input
+  function initPowerModeInput() {
+    PowerModeInput.make(".input", {
+      // height: 5,
+      // tha: [0, 360],
+      // g: 0.5,
+      // num: 5,
+      // radius: 6,
+      // circle: true,
+      // alpha: [0.75, 0.1],
+      color: "#FFD700"
+    });
+  }
+
   return (
     <div className="App">
       {/* doc: https://github.com/lindelof/react-mouse-particles */}
-      <MouseParticles g={1} num={6} color={"gold"} cull="col,image-wrapper,form,logo"/>
+      <MouseParticles g={1} num={6} color={"#FFD700"} cull="col,image-wrapper,form,logo"/>
       {/* doc: https://github.com/lindelof/particles-bg */}
       <ParticlesBg type="cobweb" bg={true} />
       <Navigation/>
