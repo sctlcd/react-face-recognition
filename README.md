@@ -27,7 +27,7 @@
 
 ## Introduction <a name="introduction"></a>
 
-Creating a Rick and Morty's space journey using [React](https://reactjs.org/).
+Creating a React Face Regognition app that detects faces in your pictures using React using [React](https://reactjs.org/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -106,9 +106,6 @@ Back to [top](#tableOfContents)
    cd react-face-recognition
    npm i
    ```
-
-   note: in this app
-   ...
 
 5. Runs the app in the development mode.
    Open http://localhost:3000 to view it in the browser.
