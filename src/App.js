@@ -3,11 +3,11 @@ import Navigation from './componentes/Navigation/Navigation.jsx';
 import Logo from './componentes/Logo/Logo.jsx';
 import ImageLinkForm from './componentes/ImageLinkForm/ImageLinkForm.jsx';
 import Rank from './componentes/Rank/Rank.jsx';
-import ParticlesBg from 'particles-bg'
+import ParticlesBg from 'particles-bg';
+import MouseParticles from 'react-mouse-particles';
 
 function App() {
 
-  // doc: https://github.com/lindelof/particles-bg
   // let config = {
   //   num: [4, 7],
   //   rps: 0.1,
@@ -36,6 +36,9 @@ function App() {
 
   return (
     <div className="App">
+      {/* doc: https://github.com/lindelof/react-mouse-particles */}
+      <MouseParticles g={1} num={6} color={"gold"} cull="col,image-wrapper,form,logo"/>
+      {/* doc: https://github.com/lindelof/particles-bg */}
       <ParticlesBg type="cobweb" bg={true} />
       <Navigation/>
       <Logo/>
