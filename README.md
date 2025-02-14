@@ -107,6 +107,16 @@ Back to [top](#tableOfContents)
    npm i
    ```
 
+   note: in this app
+   -[react](https://github.com/facebook/react): The library for web and native user interfaces
+   -[react-dom](https://github.com/facebook/react): It serves as the entry point to the DOM and server renderers for React. It is intended to be paired with the generic React package, which is shipped as react to npm
+   -[tachyons](https://github.com/tachyons-css/tachyons): Functional css for humans
+   -[vercel](https://github.com/vercel/vercel): It provides the developer experience and infrastructure to build, scale, and secure a faster, more personalized Web
+   -[react-parallax-tilt](https://github.com/mkosir/react-parallax-tilt): Easily apply tilt hover effect to React components
+   - [particles-bg](https://github.com/lindelof/particles-bg): React particles animation background component
+   - [react-mouse-particles](https://github.com/lindelof/react-mouse-particles): A mouse particle effect react component
+   - [power-mode-input](https://github.com/lindelof/power-mode-input): PowerModeInput can make your text input box more compelling
+
 5. Runs the app in the development mode.
    Open http://localhost:3000 to view it in the browser.
    ```
