@@ -1,6 +1,6 @@
 import './App.css';
-import Navigation from './componentes/navigation/Navigation.jsx';
-import Logo from './componentes/logo/Logo.jsx';
+import Navigation from './componentes/Navigation/Navigation.jsx';
+import Logo from './componentes/Logo/Logo.jsx';
 
 function App() {
   return (
