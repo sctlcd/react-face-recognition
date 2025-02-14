@@ -8,7 +8,6 @@ import ParticlesBg from 'particles-bg';
 import MouseParticles from 'react-mouse-particles';
 import PowerModeInput from "power-mode-input";
 
-
 function App() {
 
   // let config = {
