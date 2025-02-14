@@ -1,3 +1,23 @@
 .App {
   text-align: center;
 }
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  background-color: rgba(0, 0, 0, 1);
+  color: #FFD700;
+  border-color: #FFD700;
+}
+
+.input:hover {
+  background-color: rgba(10, 10, 10, 1);
+}
+
+.input:focus,
+.input:focus-visible {
+  border-color: #FFD700;
+}
