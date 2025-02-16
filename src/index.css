@@ -5,6 +5,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* background: linear-gradient(90deg, red, blue) */
   background: radial-gradient(circle, blue 0%, red 120%);
+  height: 100vh;
+  /* z-index: 1; */
 }
 
 code {

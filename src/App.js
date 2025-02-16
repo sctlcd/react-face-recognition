@@ -8,7 +8,6 @@ import ParticlesBg from 'particles-bg';
 import MouseParticles from 'react-mouse-particles';
 import PowerModeInput from "power-mode-input";
 
-
 function App() {
 
   // let config = {
@@ -66,7 +65,7 @@ function App() {
       {/* doc: https://github.com/lindelof/react-mouse-particles */}
       <MouseParticles g={1} num={6} color={"#FFD700"} cull="col,image-wrapper,form,logo"/>
       {/* doc: https://github.com/lindelof/particles-bg */}
-      <ParticlesBg type="cobweb" bg={true} />
+      {/* <ParticlesBg type="cobweb" bg={true} /> */}
       <Navigation/>
       <Logo/>
       <Rank/>
