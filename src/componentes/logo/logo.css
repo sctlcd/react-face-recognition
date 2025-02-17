@@ -3,7 +3,6 @@
   width: 10rem;
   background: radial-gradient(circle, blue 0%, red 120%);
   /* background: linear-gradient(90deg, red, blue); */
-  /* margin-left: 0.1rem; */
 }
 
 .parallax-effect-glare-scale {

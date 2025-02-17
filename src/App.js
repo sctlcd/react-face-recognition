@@ -36,8 +36,6 @@ function App() {
   //   }
   // };
 
-  
-
   useEffect(() => {
     initPowerModeInput();
   }, []);
@@ -62,14 +60,14 @@ function App() {
 
   return (
     <div className="App">
-      {/* doc: https://github.com/lindelof/react-mouse-particles */}
-      <MouseParticles g={1} num={6} color={"#FFD700"} cull="col,image-wrapper,form,logo"/>
+      <Navigation />
+      <Logo />
+      <Rank />
+      <ImageLinkForm />
       {/* doc: https://github.com/lindelof/particles-bg */}
-      {/* <ParticlesBg type="cobweb" bg={true} /> */}
-      <Navigation/>
-      <Logo/>
-      <Rank/>
-      <ImageLinkForm/>
+      <ParticlesBg type="cobweb" bg={true} />
+      {/* doc: https://github.com/lindelof/react-mouse-particles */}
+      <MouseParticles g={1} num={6} color={"#FFD700"} cull="col,image-wrapper,form,logo" />
     </div>
   );
 }
