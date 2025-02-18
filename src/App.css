@@ -21,3 +21,7 @@
 .input:focus-visible {
   border-color: #FFD700;
 }
+
+.particles-bg-canvas-self {
+  background: radial-gradient(circle, blue 0%, red 120%);
+}
